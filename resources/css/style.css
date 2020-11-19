@@ -85,3 +85,11 @@ h1{
     border: 1px, solid,#F97F51;
     color: #fff;
 }
+.logo{
+    height: 100px;
+    width: left;
+    float: left;
+}
+.main-nav{
+    float: right;
+}
