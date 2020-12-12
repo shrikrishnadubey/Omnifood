@@ -109,6 +109,36 @@ h2::after {
   margin-bottom: 10px;
 }
 
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #f86730;
+  font-size: 120%;
+  margin-right: 10px;
+
+  /*secret to align text and icon*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/*  links */
+
+a:link,
+a:active {
+  color: #f86730;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #f86730;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
 /*--------------------------------------------*/
 /*--------------------------------button*/
 /*--------------------------------------------*/
@@ -265,4 +295,14 @@ section {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/*Cities*/
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.city-feature {
+  margin-bottom: 5px;
 }
