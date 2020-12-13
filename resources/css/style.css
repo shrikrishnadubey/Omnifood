@@ -144,7 +144,8 @@ a:active {
 /*--------------------------------button*/
 /*--------------------------------------------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -153,7 +154,8 @@ a:active {
   transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
   background-color: #f97f51;
   border: 1px solid #f97f51;
   color: #fff;
@@ -165,7 +167,9 @@ a:active {
   color: #f97f51;
 }
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
   background-color: #f86730;
 }
 .btn-full:hover,
@@ -388,4 +392,28 @@ cite img {
 }
 .plan-box ul li {
   padding: 5px 0;
+}
+/* Contact Form*/
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+textarea {
+  height: 100px;
+}
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
 }
